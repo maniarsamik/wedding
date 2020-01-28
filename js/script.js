@@ -749,3 +749,15 @@
 
 
 })(window.jQuery);
+
+
+//youtubeplayer script
+      window.onYouTubeIframeAPIReady = function() {
+        player = new YT.Player('youTube', {
+            videoId: 'l2QtCgAvQC0',
+            playerVars: {
+                'rel': 0,
+                'autoplay': 1
+            }
+        });
+    }
