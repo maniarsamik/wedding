@@ -90,6 +90,11 @@ a:focus {
   padding: 120px 0;
 }
 
+.inportant-people-section .tablist ul li a.active.show{
+  background-color: #5e9a8e;
+  color: #fff;
+}
+
 @media (max-width: 1199px) {
   .section-padding {
     padding: 100px 0;
@@ -2931,10 +2936,10 @@ a:focus {
   }
 }
 
-.inportant-people-section .tablist ul .active a{
+/*.inportant-people-section .tablist ul .active a{
   background-color: #5e9a8e;
   color: #fff;
-}
+}*/
 
 .inportant-people-section .tab-content > div {
   overflow: hidden;
