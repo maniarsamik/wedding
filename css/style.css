@@ -3213,11 +3213,11 @@ a:focus {
 }
 
 .gallery-section .grid img {
-  -webkit-filter: grayscale(60%);
+  /*-webkit-filter: grayscale(60%);
   -moz-filter: grayscale(60%);
   -o-filter: grayscale(60%);
   -ms-filter: grayscale(60%);
-  filter: grayscale(60%);
+  filter: grayscale(60%);*/
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -o-transition: all .3s ease;
@@ -3226,11 +3226,11 @@ a:focus {
 
 @media (max-width: 767px) {
   .gallery-section .grid img {
-    -webkit-filter: grayscale(0);
+    /*-webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
     -o-filter: grayscale(0);
     -ms-filter: grayscale(0);
-    filter: grayscale(0);
+    filter: grayscale(0);*/
   }
 }
 
